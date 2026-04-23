@@ -33,3 +33,5 @@ document.getElementById("btn").onclick = () => {
 };
 
 }
+
+document.getElementById('year').textContent = new Date().getFullYear();
